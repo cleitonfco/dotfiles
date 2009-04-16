@@ -1,0 +1,33 @@
+[user]
+    name = Cleiton Francisco
+    email = cleitonfco@gmail.com
+[alias]
+    co = checkout
+    ls = log --stat
+    st = status
+    br = commit
+    w  = whatchanged
+[color]
+    branch = auto
+    diff = auto
+    status = auto
+    interactive = auto
+    ui = true
+    pager = true
+[color "branch"]
+    current = yellow reverse
+    local = yellow
+    remote = green
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan
+[apply]
+    whitespace = nowarn
+[merge]
+    summary = true
